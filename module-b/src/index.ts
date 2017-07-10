@@ -1,0 +1,1 @@
+export { CompBComponent } from './app/comp-b/comp-b.component';
