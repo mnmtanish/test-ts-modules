@@ -1,19 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { R } from 'module-b';
-
+// import { ModuleAModule } from 'module-a';
+// import { ModuleBModule } from 'module-b';
+// import { ModuleCModule } from 'module-c';
 import { AppComponent } from './app.component';
-import { CompAComponent } from './comp-a/comp-a.component';
-
-export const Q = R + '.1';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CompAComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // ModuleAModule,
+    // ModuleBModule,
+    // ModuleCModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,11 +1,11 @@
 {
-  "name": "module-a",
+  "name": "test-app",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build  --prod --aot --stats-json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -22,7 +22,9 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
+    "module-a": "file:../module-a",
     "module-b": "file:../module-b",
+    "module-c": "file:../module-c",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"
   },
